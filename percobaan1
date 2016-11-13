@@ -9,6 +9,6 @@ void loop() {
   val = analogRead(A0);
   analogWrite(9, val/4);
   Serial.print("PWM Value = ");
-  Serial.println(val, OCT);
+  Serial.println(val, DEC);
   delay(500);
 }
